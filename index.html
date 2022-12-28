@@ -9,16 +9,19 @@
     <title>DevLinks - Rocketseat</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="light">
+<body class="">
     <div id="container">
+        
         <div id="profile">
             <img src="assets/profile.png" alt="foto de perfil">
             <p>@carlosvcerqueira</p>
         </div>
-        <div id="switch">
-            <button>switch</button>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
             <span></span>
         </div>
+
         <div id="links">
             <ul>
                 <li>
@@ -35,6 +38,7 @@
                 </li>
             </ul>
         </div>
+
         <div id="social-links">
             <a target="_blank" href="https://github.com/carlosvcerqueira">
                 <ion-icon name="logo-github"></ion-icon>
@@ -49,12 +53,17 @@
                 <ion-icon name="logo-instagram"></ion-icon>
             </a>
         </div>
+
         <footer>
             Feito por <a target="_blank" href="https://www.instagram.com/carlosvcerqueira/">Carlos</a>
             <ion-icon name="planet"></ion-icon>
         </footer>
+
     </div>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
 </body>
 </html>
